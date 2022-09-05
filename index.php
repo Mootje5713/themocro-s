@@ -11,8 +11,11 @@
 
 <body>
     <div class="header">
-        <h1>Header</h1>
-        <p>My supercool header</p>
+        <h1>The mocro's</h1>
+        <p>Studentengids voor de eerste jaars</p>
+    </div>
+    <div class="image">
+        <img src="images.jpg">
     </div>
 </body>
 
