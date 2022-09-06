@@ -9,6 +9,11 @@
     text-align: center;
 }
 
+.h2 {
+  display: flex;
+  text-align: center;
+}
+
 a {
   text-decoration: none;
   display: inline-block;
