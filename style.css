@@ -39,6 +39,6 @@ a:hover {
   color: white;
 }
 
-.tips > ul {
+.tips > ul > li {
   text-align: center;
 }
