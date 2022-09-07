@@ -1,10 +1,16 @@
 .header {
-  padding: 30px;
   text-align: center;
   background: #00008b;
   color: white;
-  font-size: 20px;
+  height: 100px;
 }
+
+.image2 {
+    text-align: start;
+    background-color: #00008b;
+    height: 60px;
+}
+
 .image {
     text-align: center;
 }
