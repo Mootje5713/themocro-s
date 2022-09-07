@@ -1,15 +1,17 @@
 .header {
+  display: flex;
+  justify-content: space-between;
   text-align: center;
   background: #00008b;
   color: white;
-  height: 100px;
 }
 
-.image2 {
-    text-align: start;
-    background-color: #00008b;
-    height: 60px;
+#hallo {
+  display: flex;
+  justify-content: center;
 }
+
+
 
 .image {
     text-align: center;
@@ -45,7 +47,7 @@ a:hover {
   color: white;
 }
 
-.tips > ul > li {
+.tips {
   text-align: center;
   font-size: medium;
 }

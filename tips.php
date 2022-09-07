@@ -1,3 +1,6 @@
+<?php
+include "connection.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,8 +13,13 @@
 
 <body>
     <div class="header">
+        <img src="plan van aanpak/flag_of_morocco-svg_1.png" width="90px;">
         <h1>The mocro's</h1>
-        <p>Studentengids voor de eerste jaars</p>
+        <img src="plan van aanpak/300px-Berber_flag.svg.png" width="90px;">
+    </div>
+    <br>
+    <div id="hallo">
+        <h2>Studentengids voor de 1e jaars</h2>
     </div>
     <div class="tips">
         <li>
@@ -27,9 +35,11 @@
             Vraag een medestudent om hulp.
         </li>
         <li>
-            
+            Geef niet op.
         </li>
     </div>
-    <a href="index.html" class="previous">&laquo; Vorige pagina</a>
-    <a href="tips.html" class="next round">Volgende pagina &#8250;</a>
+    <div class="image">
+        <img src="plan van aanpak/tattas-be-like.jpg" width="200px;">
+    </div>
+    <a href="index.php" class="previous">&laquo; Vorige pagina</a>
 </body>
