@@ -9,9 +9,14 @@
 #hallo {
   display: flex;
   justify-content: center;
+  color: white;
 }
 
-
+body {
+    background-image: url("img_2111_web.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 
 .image {
     text-align: center;
@@ -20,6 +25,7 @@
 .h2 {
   display: flex;
   text-align: center;
+  color: white;
 }
 
 a {
@@ -50,4 +56,5 @@ a:hover {
 .tips {
   text-align: center;
   font-size: medium;
+  color: white
 }
