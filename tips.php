@@ -8,14 +8,19 @@ if (isset($_POST['add'])) {
     if ($result === false) {
         echo "error" . $query . "<br />" . $conn->error;
     }
+}
+$tips = $_POST['tip'];
+$query = "SELECT tip FROM tips";
+$result = $conn->query($query);
+if ($result === false) {
+    echo "error" . $query . "<br />" . $conn->error;
 } else {
     if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
-            $tips[] = $row;
+            $tips = $row;
         }
     }
 }
-
 
 ?>
 <!DOCTYPE html>
@@ -56,11 +61,11 @@ if (isset($_POST['add'])) {
         </li>
         <?php foreach ($tips as $row) : ?>
             <li>
-                <?php echo $row['tip'] ?>
+                <?php echo $row; ?>
             </li>
-        <?php endforeach; ?>
+        <?php endforeach ?>
     </div>
-    
+
     <form method="POST">
         <p>Heb je zelf nog tips? Laat het gerust weten</p>
         <input type="text" name="tip">
