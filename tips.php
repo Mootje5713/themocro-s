@@ -1,15 +1,12 @@
 <?php
 include "connection.php";
 
-if(isset($_POST['add'])) {
-    $tips = ['tip'];
-    $query = "INSERT INTO `themocros` ('tip') VALUES ($tips)";
-    $result = mysqli_query($conn, $query);
-
-    if($result) {
-        echo "Gelukt";
-    } else {
-        echo "Niet gelukt";
+if (isset($_POST['add'])) {
+    $tips = $_POST['tip'];
+    $query = "INSERT INTO `tips` (`tip`) VALUES ('$tips')";
+    $result = $conn->query($query);
+    if ($result === false) {
+        echo "error" . $query . "<br />" . $conn->error;
     }
 }
 
@@ -53,7 +50,7 @@ if(isset($_POST['add'])) {
     </div>
     <form method="POST">
         <p>Heb je zelf nog tips? Laat het gerust weten</p>
-        <input type="text" name="tips">
+        <input type="text" name="tip">
         <input type="submit" name="add">
     </form>
     <div class="image">
