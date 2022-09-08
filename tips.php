@@ -60,6 +60,7 @@ if (isset($_POST['add'])) {
             </li>
         <?php endforeach; ?>
     </div>
+    
     <form method="POST">
         <p>Heb je zelf nog tips? Laat het gerust weten</p>
         <input type="text" name="tip">
