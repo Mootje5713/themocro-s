@@ -49,6 +49,7 @@ if (isset($_POST['add'])) {
             Geef nooit op! Onthoud neem kleine stappen en leer stap voor stap.
         </li>
     </div>
+    
     <form method="POST">
         <p>Heb je zelf nog tips? Laat het gerust weten</p>
         <input type="text" name="tip">
