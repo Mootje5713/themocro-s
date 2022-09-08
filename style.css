@@ -12,6 +12,10 @@
   color: white;
 }
 
+p {
+  color: white;
+}
+
 body {
     background-image: url("img_2111_web.jpg");
     background-repeat: no-repeat;

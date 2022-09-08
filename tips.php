@@ -1,5 +1,18 @@
 <?php
 include "connection.php";
+
+if(isset($_POST['add'])) {
+    $tips = ['tip'];
+    $query = "INSERT INTO `themocros` ('tip') VALUES ($tips)";
+    $result = mysqli_query($conn, $query);
+
+    if($result) {
+        echo "Gelukt";
+    } else {
+        echo "Niet gelukt";
+    }
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,6 +51,11 @@ include "connection.php";
             Geef niet op.
         </li>
     </div>
+    <form method="POST">
+        <p>Heb je zelf nog tips? Laat het gerust weten</p>
+        <input type="text" name="tips">
+        <input type="submit" name="add">
+    </form>
     <div class="image">
         <img src="plan van aanpak/tattas-be-like.jpg" width="200px;">
     </div>
