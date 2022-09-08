@@ -8,6 +8,12 @@ if (isset($_POST['add'])) {
     if ($result === false) {
         echo "error" . $query . "<br />" . $conn->error;
     }
+} else {
+    if ($result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) {
+            $tips[] = $row;
+        }
+    }
 }
 
 
@@ -48,6 +54,11 @@ if (isset($_POST['add'])) {
         <li>
             Geef niet op.
         </li>
+        <?php foreach ($tips as $row) : ?>
+            <li>
+                <?php echo $row['tip'] ?>
+            </li>
+        <?php endforeach; ?>
     </div>
     <form method="POST">
         <p>Heb je zelf nog tips? Laat het gerust weten</p>
@@ -57,5 +68,5 @@ if (isset($_POST['add'])) {
     <div class="image">
         <img src="plan van aanpak/tattas-be-like.jpg" width="200px;">
     </div>
-    <a href="index.php" class="previous">&laquo; Vorige pagina</a>
+    <a href="index.php" class="previous"> &laquo; Vorige pagina</a>
 </body>
