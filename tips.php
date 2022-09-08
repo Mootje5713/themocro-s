@@ -36,23 +36,23 @@ if (isset($_POST['add'])) {
     </div>
     <br>
     <div id="hallo">
-        <h2>Studentengids voor de 1e jaars</h2>
+        <h2>Studentengids voor de 1e jaars.</h2>
     </div>
     <div class="tips">
         <li>
-            Probeer eerst zelf het probleem op te lossen en te kijken op de foutmelding waar de fout vandaan komt
+            Probeer eerst zelf het probleem op te lossen en te kijken waar de fout vandaan vandaan komt. Daarmee bedoel ik zoek op internet de foutmelding op wat het doet.
         </li>
         <li>
-            Wees niet bang om hulp te vragen.
+            Wees niet bang om hulp te vragen. Iedereen maakt fouten.
         </li>
         <li>
-            Kijk wat filmpje'/tutorials van hoe je de fout kan oplossen
+            Kijk filmpjes/tutorials van hoe je de fout kan oplossen.
         </li>
         <li>
-            Vraag een medestudent om hulp.
+            Vraag een medestudent om hulp of advies.
         </li>
         <li>
-            Geef niet op.
+            Geef nooit op! Onthoud neem kleine stappen en leer stap voor stap.
         </li>
         <?php foreach ($tips as $row) : ?>
             <li>
@@ -68,5 +68,5 @@ if (isset($_POST['add'])) {
     <div class="image">
         <img src="plan van aanpak/tattas-be-like.jpg" width="200px;">
     </div>
-    <a href="index.php" class="previous"> &laquo; Vorige pagina</a>
+    <a href="index.php" class="previous">&laquo; Vorige pagina</a>
 </body>
