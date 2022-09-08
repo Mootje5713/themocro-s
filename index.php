@@ -22,17 +22,17 @@ include "connection.php";
     </div>
     <br>
     <div id="hallo">
-        <h2>Studentengids voor de 1e jaars</h2>
+        <h2>Studentengids voor de 1e jaars.</h2>
     </div>
     <div class="h2">
-        <h3>Welkom op de hulpgids van the mocro's wij gaan jouw bepaalde tips geven om ervoor te zorgen dat je veel
+        <h3>Welkom op de hulpgids van the mocro's. Wij gaan jullie tips geven om ervoor te zorgen dat je veel
             fouten kunt verkomen of verhelpen.
             <br>
-            Bij ons op de bitacademy vinden wij dat leerlingen met elkaar kunnen lachen en van elkaar kunnen leren.
-            Ook vinden wij het altijd fijn als er meerdere nieuwe 1e jaars komen daarom hebben wij deze gids gemaakt
-            zodat toekomstige leerlingen hier aan wat hebben.
+            Bij ons op de Bit-Academy vinden wij dat de leerlingen met elkaar kunnen lachen en van elkaar kunnen leren.
+            Ook vinden wij het altijd fijn als er meerdere nieuwe 1e jaars komen, daarom hebben wij deze gids gemaakt
+            zodat de toekomstige leerlingen hier aan wat hebben.
             <br>
-            Maar dit doen we wel op onze leuke en gezellige manier.
+            Dit doen we op onze eigen leuke en gezellige manier.
         </h3>
     </div>
 

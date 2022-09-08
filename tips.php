@@ -32,27 +32,27 @@ if(isset($_POST['add'])) {
     </div>
     <br>
     <div id="hallo">
-        <h2>Studentengids voor de 1e jaars</h2>
+        <h2>Studentengids voor de 1e jaars.</h2>
     </div>
     <div class="tips">
         <li>
-            Probeer eerst zelf het probleem op te lossen en te kijken op de foutmelding waar de fout vandaan komt
+            Probeer eerst zelf het probleem op te lossen en te kijken waar de fout vandaan vandaan komt. Daarmee bedoel ik zoek op internet de foutmelding op wat het doet.
         </li>
         <li>
-            Wees niet bang om hulp te vragen.
+            Wees niet bang om hulp te vragen. Iedereen maakt fouten.
         </li>
         <li>
-            Kijk wat filmpje'/tutorials van hoe je de fout kan oplossen
+            Kijk filmpjes/tutorials van hoe je de fout kan oplossen.
         </li>
         <li>
-            Vraag een medestudent om hulp.
+            Vraag een medestudent om hulp of advies.
         </li>
         <li>
-            Geef niet op.
+            Geef nooit op! Onthoud neem kleine stappen en leer stap voor stap.
         </li>
     </div>
     <form method="POST">
-        <p>Heb je zelf nog tips? Laat het gerust weten</p>
+        <p>Heb je zelf nog tips? Laat het gerust weten.</p>
         <input type="text" name="tips">
         <input type="submit" name="add">
     </form>
