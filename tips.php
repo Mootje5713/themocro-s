@@ -9,20 +9,20 @@ if (isset($_POST['add'])) {
         echo "error" . $query . "<br />" . $conn->error;
     }
 }
-$tips = $_POST['tip'];
-$query = "SELECT tip FROM tips";
+$query = "SELECT tip FROM tips'WHERE";
 $result = $conn->query($query);
 if ($result === false) {
     echo "error" . $query . "<br />" . $conn->error;
 } else {
     if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
-            $tips = $row;
+            $tip[] = $row;
         }
     }
 }
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -59,9 +59,9 @@ if ($result === false) {
         <li>
             Geef nooit op! Onthoud neem kleine stappen en leer stap voor stap.
         </li>
-        <?php foreach ($tips as $row) : ?>
+        <?php foreach ($tip as $row) : ?>
             <li>
-                <?php echo $row; ?>
+                <?php echo $row['tip']; ?>
             </li>
         <?php endforeach ?>
     </div>
