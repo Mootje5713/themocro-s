@@ -20,7 +20,7 @@ if (
     && $_SERVER['REQUEST_URI'] != '/themocros-s/register.php'
     && $_SERVER['REQUEST_URI'] != '/themocros-s/index.php'
 ) {
-    header("Location: index.php");
+    header("Location: login.php");
 }
 
 
